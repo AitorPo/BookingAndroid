@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.androidavanzado.bookingaitor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".habitacion.detailsHabitacion.view.DetailsHabitacionActivity"
+            android:parentActivityName=".ciudad.listCiudad.findAll.view.ListCiudadActivity"
+            ></activity>
+        <activity
+            android:name=".habitacion.findByPrecioAsc.view.ListHabitacionByPrecioAscActivity"
+            android:parentActivityName=".ciudad.listCiudad.findAll.view.ListCiudadActivity"
+            ></activity>
+        <activity
+            android:name=".habitacion.findByPrecioDesc.view.ListHabitacionByPrecioDescActivity"
+            android:parentActivityName=".ciudad.listCiudad.findAll.view.ListCiudadActivity"
+            ></activity>
+        <activity
+            android:name=".habitacion.findByHotel.view.ListHabitacionByHotelActivity"
+            android:parentActivityName=".ciudad.listCiudad.findAll.view.ListCiudadActivity"
+            ></activity>
+        <activity
+            android:name=".hotel.listHotel.findByCiudad.view.ListHotelByCiudadActivity"
+            android:parentActivityName=".ciudad.listCiudad.findAll.view.ListCiudadActivity"
+            ></activity>
+        <activity
+            android:name=".ciudad.listCiudad.findAll.view.ListCiudadActivity"
+            android:parentActivityName=".hotel.listHotel.findAll.view.ListHotelActivity"
+            ></activity>
+        <activity
+            android:name=".hotel.listHotel.findByReservas.view.ListHotelByReservasActivity"
+            android:parentActivityName=".hotel.listHotel.findAll.view.ListHotelActivity"
+            ></activity>
+        <activity
+            android:name=".hotel.listHotel.findByDestacado.view.ListHotelByDestacadoActivity"
+            android:parentActivityName=".hotel.listHotel.findAll.view.ListHotelActivity"
+            ></activity>
+        <activity
+            android:name=".hotel.listHotel.findByPuntuacion.view.ListHotelByPuntuacionActivity"
+            android:parentActivityName=".hotel.listHotel.findAll.view.ListHotelActivity"
+            ></activity>
+        <activity
+            android:name=".hotel.detailsHotel.view.DetailsHotelActivity"
+            android:parentActivityName=".hotel.listHotel.findAll.view.ListHotelActivity"
+            ></activity>
+        <activity
+            android:name=".hotel.listHotel.findAll.view.ListHotelActivity"
+            ></activity>
+        <activity android:name=".usuario.LoginActivity"
+            ></activity>
+        <activity android:name=".Splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

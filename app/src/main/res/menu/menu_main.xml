@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.androidavanzado.bookingaitor.MainActivity">
+    <item
+        android:id="@+id/findAllHoteles"
+        android:title="@string/find_all_hoteles" />
+    <item
+        android:id="@+id/findAllByPuntuacion"
+        android:title="@string/mejor_puntuacion" />
+    <item
+        android:id="@+id/orderByPrecioDesc"
+        android:title="@string/caros" />
+    <item
+        android:id="@+id/orderByPrecioAsc"
+        android:title="@string/baratos" />
+    <item
+        android:id="@+id/rankingReservas"
+        android:title="@string/rankingReservas" />
+    <item
+        android:id="@+id/destacados"
+        android:title="@string/hotelesDestacados" />
+    <item
+        android:id="@+id/ciudades"
+        android:title="@string/ver_ciudades" />
+
+</menu>

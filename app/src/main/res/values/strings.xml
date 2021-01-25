@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BookingAitor</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_list_hoteles">ListHotelesActivity</string>
+    <string name="find_all_hoteles">Todos los hoteles</string>
+    <string name="mejor_puntuacion">Hoteles mejor valorados</string>
+    <string name="opcion_barata">Mejores ofertas</string>
+    <string name="title_activity_list_hotel">ListHotelActivity</string>
+    <string name="title_activity_list_hotel_puntuacion">ListHotelPuntuacionActivity</string>
+    <string name="title_activity_list_habitacion">ListHabitacionActivity</string>
+    <string name="title_activity_details_hotel">DetailsHotelActivity</string>
+    <string name="rankingReservas">Hoteles más reservados</string>
+    <string name="hotelesDestacados">Hoteles destacados</string>
+    <string name="ver_ciudades">Ver ciudades</string>
+    <string name="baratos">Más baratos</string>
+    <string name="caros">Más caros</string>
+    <string name="habitaciones_disponibles">Habitaciones disponibles</string>
+</resources>
